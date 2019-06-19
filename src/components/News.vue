@@ -3,9 +3,8 @@
     <div class="about" v-for="i in 1" :key=i>
     <h3> {{ name }} </h3>
     <img src="../assets/s_sorry.png">
-    <p> {{ text1 }} <br> {{ text2 }} </p>
-    <p> {{ text3 }} <br> {{ text4 }} </p>
-    <p> {{ text5 }} </p>
+    <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} </p> <p> {{ text4 }} </p>
+    <br><a href="https://drive.google.com/open?id=1Kr5maahjRX4ua_xR9Q0Hg7eDv2sOhsSk">紹介スライドへ飛びます</a>
   </div>
   </div>
 </template>
@@ -16,10 +15,9 @@ export default {
     return {
       name: '工事中',
       text1: 'ここには，公にやってきたことを掲載します',
-      text2: 'ライブの出演，アプリの公開，その他達成したことなど',
-      text3: '記事タイトルが並び，クリックすると，',
-      text4: 'その場に内容が展開されるようにしたいです',
-      text5: 'Firebaseでデータを管理します'
+      text2: 'ライブの出演，アプリ開発，インターン',
+      text3: 'その他達成したことなどなど...',
+      text4: '一先ず、経歴のわかるスライドを置いておきます'
     }
   }
 }

@@ -6,7 +6,7 @@
     <p> {{ text1 }} </p>
     <p> {{ text2 }} </p>
     <p> {{ text3 }} </p>
-    <br><a href="https://www.youtube.com/watch?v=4TK7c3LQHH4">今年度のライブ動画はこちら</a>{{ text4 }}
+    <br><a href="https://www.youtube.com/watch?v=4TK7c3LQHH4">ライブ動画はこちら</a>{{ text4 }}
   </div>
   </div>
 </template>
@@ -16,9 +16,9 @@ export default {
   data () {
     return {
       name: 'PATO',
-      text1: '娯楽大学生。友人に誘われたサークルで音楽に没頭し、ボーカルを始める。',
-      text2: '主にロックミュージックを中心に、やや高音の曲を担当する事が多い。',
-      text3: '趣味は音楽、ゲーム、アニメ、Youtube。',
+      text1: '娯楽大学生．友人に誘われたサークルで音楽に没頭し，ボーカルを始める．',
+      text2: '主にロックミュージックを中心に，やや高音の曲を担当する事が多い．',
+      text3: '趣味は音楽，ゲーム，アニメ，Youtube．',
       text4: ' (newsに載せる予定)'
     }
   }
