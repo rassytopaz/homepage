@@ -26,7 +26,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Gokko Asobi'
+      msg: 'PATO MUG1_tea'
     }
   },
   components: {
