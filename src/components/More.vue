@@ -3,7 +3,7 @@
     <div class="about" v-for="i in 1" :key=i>
     <h3> {{ name }} </h3>
     <img src="../assets/s_sorry.png">
-    <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} </p> <p> {{ text4 }} </p>
+    <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} <br> {{ text4 }} </p>
     <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="430" height="271" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
   </div>
