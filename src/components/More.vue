@@ -10,7 +10,7 @@
 </template>
 <script>
 export default {
-  name: 'News',
+  name: 'More',
   data () {
     return {
       name: '工事中',
