@@ -4,7 +4,7 @@
     <h3> {{ name }} </h3>
     <img src="../assets/s_sorry.png">
     <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} </p> <p> {{ text4 }} </p>
-    <br><a href="https://drive.google.com/open?id=1Kr5maahjRX4ua_xR9Q0Hg7eDv2sOhsSk">紹介スライドへ飛びます</a>
+    <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="430" height="271" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
   </div>
 </template>
@@ -14,10 +14,10 @@ export default {
   data () {
     return {
       name: '工事中',
-      text1: 'ここには，公にやってきたことを掲載します',
-      text2: 'ライブの出演，アプリ開発，インターン',
-      text3: 'その他達成したことなどなど...',
-      text4: '一先ず、経歴のわかるスライドを置いておきます'
+      text1: 'profileでは書けない詳細を掲載します',
+      text2: '遍歴や在り方、開発経験などなど',
+      text3: 'そんな詳細をスライドにまとめているので、',
+      text4: 'ぜひご確認ください……'
     }
   }
 }
