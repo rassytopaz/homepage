@@ -1,5 +1,5 @@
 <template>
-  <div class="news">
+  <div class="more">
     <div class="about" v-for="i in 1" :key=i>
     <h3> {{ name }} </h3>
     <img src="../assets/s_sorry.png">

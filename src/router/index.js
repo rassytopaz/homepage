@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import News from '@/components/News'
 import Profile from '@/components/Profile'
+import News from '@/components/More'
 import Link from '@/components/Link'
 
 Vue.use(Router)
@@ -16,15 +16,15 @@ export default new Router({
     },
 
     {
-      path: '/news',
-      name: 'News',
-      component: News
-    },
-
-    {
       path: '/profile',
       name: 'Profile',
       component: Profile
+    },
+
+    {
+      path: '/more',
+      name: 'More',
+      component: News
     },
 
     //     ②profile

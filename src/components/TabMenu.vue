@@ -17,8 +17,8 @@ export default {
     return {
       items: [
         { title: 'home', path: '/' },
-        {title: 'news', path: '/news'},
         { title: 'profile', path: '/profile' },
+        {title: 'more', path: '/more'},
         { title: 'links', path: '/links' }
       ]
     }
