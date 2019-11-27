@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <img src="../assets/s_topD.png">
+    <img src="../assets/s_topD.png" width="device-width">
     <h1>{{ msg }}</h1>
     <h2>RockVocal,NetRap,Lyricist,ProgrammerEgg</h2>
     <hr size="1" width="34%" align="center" color="#2C2370" noshade>
     <h3>-Collaboration Song-</h3>
     <div class="sc">
-      <iframe width="32%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482786238&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      <iframe width="device-width" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482786238&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </div>
     <h3>-Last Event-</h3>
     <div id="container">

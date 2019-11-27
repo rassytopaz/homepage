@@ -19,7 +19,7 @@ export default {
         { title: 'home', path: '/' },
         { title: 'profile', path: '/profile' },
         {title: 'more', path: '/more'},
-        {title: 'links', path: '/link'}
+        {title: 'link', path: '/link'}
       ]
     }
   }
