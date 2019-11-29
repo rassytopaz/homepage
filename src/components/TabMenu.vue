@@ -36,7 +36,7 @@ export default {
 ol {
   margin-left: auto;
   margin-right: auto;
-  width: 480px;
+  width: "device-width";
   display:flex;
   justify-content: center;
   padding: 0;
@@ -45,14 +45,13 @@ ol {
 }
 
 li {
-  width: 100px;
+  width: 25vw;
   height: 50px;
   margin-left:10px;
   margin-right:10px;
   font-size: 14px;
   background-color: #FE2E64;
   border-radius: 8px;
-  width: "device-width";
 }
 
 li:hover {
