@@ -3,19 +3,19 @@ i<template>
     <div class="content" v-for="i in 1" :key=i>
     <h3> {{ name1 }} </h3>
     <a href="https://twitter.com/Rassy_Topaz"><img src="../assets/Twitter2.png" alt="Pato's Twitter LINK"></a>
-    <p> {{ text1 }} </p>
+    <p> {{ text1_1 }} <br> {{ text1_2 }} <br> {{ text1_3 }} </p>
     <hr size="1" width="50%" align="center" color="#2C2370" noshade>
     <h3> {{ name2 }} </h3>
     <a href="https://soundcloud.com/pat0mug1-tea"><img src="../assets/soundcloud.png" alt="Pato's SOUNDCLOUD LINK"></a>
-    <p> {{ text2 }} </p>
+    <p> {{ text2_1 }} <br> {{ text2_2 }} <br> {{ text2_3 }} </p>
     <hr size="1" width="50%" align="center" color="#2C2370" noshade>
     <h3> {{ name3 }} </h3>
     <a href="https://github.com/RassyTopaz"><img src="../assets/github.png" alt="Pato's GitHub LINK"></a>
-    <p> {{ text3 }} </p>
+    <p> {{ text3_1 }} <br> {{ text3_2 }} <br> {{ text3_3 }} </p>
     <hr size="1" width="50%" align="center" color="#2C2370" noshade>
     <h3> {{ name4 }} </h3>
     <a href="https://www.clubdam.com/app/damtomo/member/info/Profile.do?damtomoId=NTI1NDQzMDk"><img src="../assets/DAMtomo.png" alt="Pato's DAM_tomo LINK"></a>
-    <p> {{ text4 }} </p>
+    <p> {{ text4_1 }} <br> {{ text4_2 }} <br> {{ text4_3 }} </p>
   </div>
   </div>
 
@@ -30,10 +30,18 @@ export default {
       name2: 'SOUNDCLOUD',
       name3: 'GitHub',
       name4: 'DAM★とも',
-      text1: 'PATOのメインのTwitterです．そこそこの頻度で日常を更新します．ネタや動物やスイーツのRTがやたらと多いです．',
-      text2: 'PATOのSOUNDCLOUDです．まだコラボした音源しかありませんが，いつか更新したいとは思います．',
-      text3: 'このサイトのソースコードなどが置かれるGitHubです．今はまだ殆ど置いてありませんが，今後増やしていけるよう頑張ります．',
-      text4: '現状，ぱとの名義で自由に紹介できる数少ない音源置き場です．カラオケです．おまけぐらいに見てください．更新頻度は高いです．DAMともボーカルの採用曲もあります．'
+      text1_1: 'PATOのメインのTwitterです',
+      text1_2: 'そこそこの頻度で日常を更新します．',
+      text1_3: 'ネタや動物のRTがやたらと多いです．',
+      text2_1: 'PATOのSOUNDCLOUDです．',
+      text2_2: 'まだコラボした音源しかありませんが，',
+      text2_3: 'いつか更新したいとは思います．',
+      text3_1: 'ソースコードが置かれるGitHubです．',
+      text3_2: '今はまだ殆ど置いてありませんが，',
+      text3_3: '今後増やしていけるよう頑張ります．',
+      text4_1: 'カラオケです.',
+      text4_2: 'おまけぐらいに見てください.',
+      text4_3: 'DAMともボーカルの採用曲もあります．'
     }
   }
 }
@@ -50,7 +58,7 @@ div.content {
   background-color: #eee;
   display: inline-block;
   margin: 10px;
-  width: 30%;
+  width: "device-width";
 }
 
 h3 {
@@ -60,7 +68,7 @@ h3 {
 p {
   width: 90%;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 </style>

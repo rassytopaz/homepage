@@ -19,7 +19,7 @@ export default {
         { title: 'home', path: '/' },
         { title: 'profile', path: '/profile' },
         {title: 'more', path: '/more'},
-        {title: 'link', path: '/link'}
+        {title: 'links', path: '/links'}
       ]
     }
   }
@@ -31,6 +31,7 @@ export default {
 .tab{
   background-color: #FE2E64;
   position: relative;
+  width: "device-width";
 }
 
 ol {

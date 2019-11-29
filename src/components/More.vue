@@ -2,9 +2,9 @@
   <div class="more">
     <div class="about" v-for="i in 1" :key=i>
     <h3> {{ name }} </h3>
-    <img src="../assets/pic_more.png">
+    <img src="../assets/pic_more.png" width="device-width">
     <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} <br> {{ text4 }} </p>
-    <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="430" height="271" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width=70% height=215 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-div.profile {
+div.more {
   text-align: center;
 }
 
@@ -34,7 +34,7 @@ div.about {
   background-color: #eee;
   display: inline-block;
   margin: 10px;
-  width: 30%;
+  width: "device-width";
 }
 
 h3 {
