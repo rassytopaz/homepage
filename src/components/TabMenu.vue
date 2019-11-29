@@ -18,7 +18,8 @@ export default {
       items: [
         { title: 'home', path: '/' },
         { title: 'profile', path: '/profile' },
-        {title: 'more', path: '/more'}
+        {title: 'more', path: '/more'},
+        {title: 'link', path: '/links'}
       ]
     }
   }
