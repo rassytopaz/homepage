@@ -4,7 +4,7 @@
     <h3> {{ name }} </h3>
     <img src="../assets/pic_more.png" width="device-width">
     <p> {{ text1 }} <br> {{ text2 }} <br> {{ text3 }} <br> {{ text4 }} </p>
-    <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width=90% height=250 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <br><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQByWremPZeuRylKYc-svWjkBhJTs9xVrteT1-5APPQNpbGn04aKits08v22Jg5RQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width=100% height=280 allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
   </div>
 </template>
