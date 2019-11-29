@@ -42,6 +42,7 @@ ol {
   justify-content: center;
   padding: 0;
   list-style: none;
+  width: "device-width";
 }
 
 li {
@@ -52,7 +53,7 @@ li {
   font-size: 14px;
   background-color: #FE2E64;
   border-radius: 8px;
-  position: relative;
+  width: "device-width";
 }
 
 li:hover {
