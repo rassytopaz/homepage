@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/pic_head.png" width="device-width" height=auto>
+    <img src="./assets/pic_head2.png" width="device-width">
     <tab-menu></tab-menu>
     <router-view/>
   </div>
